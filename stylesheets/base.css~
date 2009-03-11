@@ -1,0 +1,86 @@
+/*
+	project: internet encyclopedia
+	author: luka cvrk (www.solucija.com)
+*/
+
+:link,:visited { text-decoration:none } :focus,:active { outline: 0 } ul,ol { list-style:none } h1,h2,h3,h4,h5,h6,pre,code { font-size:1em; } ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input { margin:0; padding:0 } a img,:link img,:visited img, fieldset { border:none } address { font-style:normal }
+body { font: .8em "Trebuchet MS", Verdana, Helvetica, sans-serif; color: #666;  background: #F7FCFF url(/themes/ansuz_theme_my_game_robot/images/bg.gif) repeat-x; }
+a { color: #AF1515; cursor: pointer; }
+a:hover { color: #7D1919; }
+h1 { font-size: 3em; clear: both; margin: 0 0 5px; }
+h2 { font: normal 1.6em Arial; color: #3D3C3B; margin: 0 0 15px; }
+h2#slogan { font-size: 1.3em; color: #808080; }
+p  { margin: 0 0 15px; line-height: 1.7em; }
+.clear { clear: both; }
+.wrapper { margin: 0 auto; width: 900px; }
+
+#top-nav { padding: 0 0 8px; margin: 0 0 25px; height: 20px;  }
+	#top-nav li { display: inline; }
+	#top-nav li a { float: left; width: 86px; text-align: center; margin: 0 2px 0 0; font-weight: bold; font-size: .8em; padding: 16px 0 21px; color: #ccc; }
+		#top-nav li.active a {
+		  color: #AF1515;
+		  background: url(/themes/ansuz_theme_my_game_robot/images/menu.gif) no-repeat center bottom;
+		  }
+		#top-nav li a:hover {
+		  color: #fff;
+		  }
+	  #navigation h3{
+        display:none;
+      }
+#logo { 
+      background:transparent url(/themes/ansuz_theme_my_game_robot/images/logo.png) no-repeat scroll left top;
+      float:left;
+      margin:40px 0 0;
+      width:330px;
+      padding-top:245px;
+        }
+.testimonial{ 
+   color: #33617F;
+      float: right;
+      background: #fff;
+      width: 450px; 
+      height: 160px; 
+      margin: 90px 0 40px; 
+      font-size: 1.1em; 
+      font-style: italic; 
+      padding: 10px 10px 2px; 
+      border:1px solid #888;
+      }
+	.testimonial img { 
+	  float: left; 
+	  margin: 0 20px 0 0; 
+	  }
+  .testimonial p { 
+    margin: 10px 0 0; 
+    }
+	.more { font-size: .74em; font-weight: bold; margin: 0 5px 0 0; color: #390505; font-style: normal; }
+#left { float: left; width: 550px; margin: 0 0 10px; text-align: justify; }
+	#left h2 { color: #52A9BA; }
+		#left h2 a { border-bottom: 1px dotted #ACCADE; padding: 0 0 3px; }
+		#left .more { color: #7EA4BC; }
+	.subtitle { font-weight: bold; font-style: italic; font-size: 1.1em; margin: 0 0 4px; } 
+	.date { background: #fff; padding: 5px 0; border-right: 1px solid #D3EAFA; border-bottom: 1px solid #D3EAFA; color: #ccc; float: left; width: 55px; margin: 7px 12px 5px 0; text-align: center; }
+	.date span { font-size: 1.6em; }
+	
+#side { float: right; width: 300px; margin: 0 0 30px; font-size: .9em; }
+	#side h3 { color: #ccc; margin: 0 0 6px 5px; height: 16px; }
+
+.boxtop { background: url(/themes/ansuz_theme_my_game_robot/images/box.gif) no-repeat top; padding: 2px 0; }
+.box { padding: 3px 6px; background: #363636; }
+.boxbottom { background: url(/themes/ansuz_theme_my_game_robot/images/box.gif) no-repeat bottom; padding: 2px 0; }
+
+.item { font-size: .94em; display: block; color: #ccc; background: #fff url(/themes/ansuz_theme_my_game_robot/images/item.gif) no-repeat; height: 54px; padding: 4px 10px; margin: 0 0 5px; }
+	.item.last { margin: 0; }
+	.item:hover { background: #fff url(/themes/ansuz_theme_my_game_robot/images/item.gif) no-repeat bottom; color: #fff; }
+	.item strong { color: #FFFAD3; line-height: 27px; }
+		.sidedate { float: left; width: 35px; text-align: center; padding: 4px 9px 0 0; font-size: 1.6em; margin: 0 12px 0 0; border-right: 1px dotted #808080; }
+		.sidedate span { font-size: .6em; font-weight: bold; color: #808080; }
+#no-show{
+  display: none;
+}
+#footer { background: url(/themes/ansuz_theme_my_game_robot/images/dot.gif) repeat-x; padding: 15px 0 10px; clear: both; font-size: .9em; line-height: 1.7em;  }
+#promo { clear: both; border-top: 3px solid #6E6E6E; background: #505050 url(/themes/ansuz_theme_my_game_robot/images/footer.gif) no-repeat right top; color: #ccc; padding: 30px 0 0 0; }
+	#promo h2 { color: #fff; }
+	#promo a { color: #D9EAF9; border-bottom: 1px dotted #808080; }
+	.col { float: left; width: 280px; margin: 0 30px 20px 0; }
+		.last { margin: 0; }
