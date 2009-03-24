@@ -66,10 +66,20 @@ p  { margin: 0 0 15px; line-height: 1.7em; }
 .boxtop { background: url(/themes/ansuz_theme_my_game_robot/images/box.gif) no-repeat top; padding: 2px 0; }
 .box { padding: 3px 6px; background: #363636; }
 .boxbottom { background: url(/themes/ansuz_theme_my_game_robot/images/box.gif) no-repeat bottom; padding: 2px 0; }
-
-.item { font-size: .94em; display: block; color: #ccc; background: #fff url(/themes/ansuz_theme_my_game_robot/images/item.gif) no-repeat; height: 54px; padding: 4px 10px; margin: 0 0 5px; }
+.item {
+  font-size: .94em;
+  display: block;
+  color: #ccc;
+   background: #666;
+   height: 54px;
+   padding: 4px 10px;
+   margin: 0 0 5px;
+ }
 	.item.last { margin: 0; }
-	.item:hover { background: #fff url(/themes/ansuz_theme_my_game_robot/images/item.gif) no-repeat bottom; color: #fff; }
+	.item:hover {
+    background: #777 no-repeat bottom;
+    color: #fff; 
+ }
 	.item strong { color: #FFFAD3; line-height: 27px; }
 		.sidedate { float: left; width: 35px; text-align: center; padding: 4px 9px 0 0; font-size: 1.6em; margin: 0 12px 0 0; border-right: 1px dotted #808080; }
 		.sidedate span { font-size: .6em; font-weight: bold; color: #808080; }
