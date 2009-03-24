@@ -82,3 +82,19 @@ p  { margin: 0 0 15px; line-height: 1.7em; }
 	#promo a { color: #D9EAF9; border-bottom: 1px dotted #808080; }
 	.col { float: left; width: 280px; margin: 0 30px 20px 0; }
 		.last { margin: 0; }
+    .form-table tr th, .form-table tr td{
+  vertical-align:top;
+  padding: 4px;
+  color: #444;
+}
+.form-table tr th{
+  text-align:right;
+}
+.form-table .button{
+  color: #666;
+  font-size: 20px;
+}
+.form-table .button:hover{
+  color: #f00;
+}
+
