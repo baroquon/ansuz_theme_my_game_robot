@@ -80,7 +80,11 @@ p  { margin: 0 0 15px; line-height: 1.7em; }
     color: #fff; 
  }
 	.item strong { color: #FFFAD3; line-height: 27px; }
-		.sidedate { float: left; width: 35px; text-align: center; padding: 4px 9px 0 0; font-size: 1.6em; margin: 0 12px 0 0; border-right: 1px dotted #808080; }
+		.sidedate { float: left; width: 35px; text-align: center; padding: 4px 9px 0 0; font-size: 1.6em; margin: 0 12px 0 0; border-right: 1px dotted #808080; 
+}
+.item img{
+  width: 260px;
+}
 		.sidedate span { font-size: .6em; font-weight: bold; color: #808080; }
 #no-show{
   display: none;
