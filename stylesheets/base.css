@@ -71,13 +71,12 @@ p  { margin: 0 0 15px; line-height: 1.7em; }
   display: block;
   color: #ccc;
    background: #666;
-   height: 54px;
    padding: 4px 10px;
    margin: 0 0 5px;
  }
 	.item.last { margin: 0; }
 	.item:hover {
-    background: #777 no-repeat bottom;
+    background: #555 no-repeat bottom;
     color: #fff; 
  }
 	.item strong { color: #FFFAD3; line-height: 27px; }
