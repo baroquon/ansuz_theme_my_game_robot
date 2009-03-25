@@ -129,7 +129,7 @@ p  { margin: 0 0 15px; line-height: 1.7em; }
   width:650px;
 }
 .page-plugin-1 ul li{
-  text-align:center;
+  vertical-align: text-top;
 }
 .page-plugin-1 ul li img{
   margin: 0 auto;
@@ -141,7 +141,13 @@ p  { margin: 0 0 15px; line-height: 1.7em; }
 .box ul li a:hover{
   color: #bbb;
 }
+.home .page-plugin-1 ul.list-item{
+  margin: 0 30px;
+}
 .box ul li{
   text-align:center;
   padding: 5px 0;
+}
+.video-container{
+  padding: 0 30px; 
 }
