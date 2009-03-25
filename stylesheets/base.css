@@ -116,3 +116,9 @@ p  { margin: 0 0 15px; line-height: 1.7em; }
   text-align:justify;
   width:550px;
 }
+.page-plugin-1 ul li{
+  text-align:center;
+}
+.page-plugin-1 ul li img{
+  margin: 0 auto;
+}
