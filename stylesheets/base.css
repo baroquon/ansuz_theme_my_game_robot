@@ -110,4 +110,9 @@ p  { margin: 0 0 15px; line-height: 1.7em; }
 .form-table .button:hover{
   color: #f00;
 }
-
+.home .page-plugin-1{
+  float:right;
+  margin:0 0 10px;
+  text-align:justify;
+  width:550px;
+}
